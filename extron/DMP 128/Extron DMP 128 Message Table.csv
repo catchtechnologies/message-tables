@@ -1,0 +1,355 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,example.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,example.disconnect
+Command,Send Command,#PAYLOAD#,n,FALSE,FALSE,example.send
+Command,Gain Input 1,WG40000*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input1.set
+Command,Gain Input 2,WG40001*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input2.set
+Command,Gain Input 3,WG40002*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input3.set
+Command,Gain Input 4,WG40003*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input4.set
+Command,Gain Input 5,WG40004*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input5.set
+Command,Gain Input 6,WG40005*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input6.set
+Command,Gain Input 7,WG40006*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input7.set
+Command,Gain Input 8,WG40007*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input8.set
+Command,Gain Input 9,WG40008*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input9.set
+Command,Gain Input 10,WG40009*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input10.set
+Command,Gain Input 11,WG40010*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input11.set
+Command,Gain Input 12,WG40011*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.input12.set
+Command,Gain Telephone Rx,WG40012*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.telephoneRx.set
+Command,Pre-Mixer Gain Input 1,WG40100*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input1.set
+Command,Pre-Mixer Gain Input 2,WG40101*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input2.set
+Command,Pre-Mixer Gain Input 3,WG40102*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input3.set
+Command,Pre-Mixer Gain Input 4,WG40103*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input4.set
+Command,Pre-Mixer Gain Input 5,WG40104*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input5.set
+Command,Pre-Mixer Gain Input 6,WG40105*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input6.set
+Command,Pre-Mixer Gain Input 7,WG40106*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input7.set
+Command,Pre-Mixer Gain Input 8,WG40107*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input8.set
+Command,Pre-Mixer Gain Input 9,WG40108*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input9.set
+Command,Pre-Mixer Gain Input 10,WG40109*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input10.set
+Command,Pre-Mixer Gain Input 11,WG40110*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input11.set
+Command,Pre-Mixer Gain Input 12,WG40111*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.input12.set
+Command,Pre-Mixer Gain Telephone Rx,WG40112*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerGain.telephoneRx.set
+Command,Post Mixer Trim Output 1,WG60100*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input1.set
+Command,Post Mixer Trim Output 2,WG60101*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input2.set
+Command,Post Mixer Trim Output 3,WG60102*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input3.set
+Command,Post Mixer Trim Output 4,WG60103*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input4.set
+Command,Post Mixer Trim Output 5,WG60104*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input5.set
+Command,Post Mixer Trim Output 6,WG60105*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input6.set
+Command,Post Mixer Trim Output 7,WG60106*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input7.set
+Command,Post Mixer Trim Output 8/Telephone Tx,WG60107*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerTrim.input8.set
+Command,Gain Exp 1 Input 1,WG50200*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input1.set
+Command,Gain Exp 1 Input 2,WG50201*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input2.set
+Command,Gain Exp 1 Input 3,WG50202*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input3.set
+Command,Gain Exp 1 Input 4,WG50203*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input4.set
+Command,Gain Exp 1 Input 5,WG50204*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input5.set
+Command,Gain Exp 1 Input 6,WG50205*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input6.set
+Command,Gain Exp 1 Input 7,WG50206*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input7.set
+Command,Gain Exp 1 Input 8,WG50207*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.exp.input8.set
+Command,Volume Output 1,WG60000*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output1.set
+Command,Volume Output 2,WG60001*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output2.set
+Command,Volume Output 3,WG60002*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output3.set
+Command,Volume Output 4,WG60003*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output4.set
+Command,Volume Output 5,WG60004*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output5.set
+Command,Volume Output 6,WG60005*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output6.set
+Command,Volume Output 7,WG60006*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output7.set
+Command,Volume Output 8,WG60007*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.output8.set
+Command,Volume Telephone Tx,WG60008*#PAYLOAD#AU,n,FALSE,FALSE,example.volume.telephoneTx.set
+Command,Gain Virtual Return A,WG50000*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnA.set
+Command,Gain Virtual Return B,WG50001*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnB.set
+Command,Gain Virtual Return C,WG50002*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnC.set
+Command,Gain Virtual Return D,WG50003*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnD.set
+Command,Gain Virtual Return E,WG50004*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnE.set
+Command,Gain Virtual Return F,WG50005*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnF.set
+Command,Gain Virtual Return G,WG50006*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnG.set
+Command,Gain Virtual Return H,WG50007*#PAYLOAD#AU,n,FALSE,FALSE,example.gain.virtualReturnH.set
+Command,Mute Input 1,WM40000*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input1.set
+Command,Mute Input 2,WM40001*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input2.set
+Command,Mute Input 3,WM40002*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input3.set
+Command,Mute Input 4,WM40003*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input4.set
+Command,Mute Input 5,WM40004*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input5.set
+Command,Mute Input 6,WM40005*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input6.set
+Command,Mute Input 7,WM40006*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input7.set
+Command,Mute Input 8,WM40007*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input8.set
+Command,Mute Input 9,WM40008*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input9.set
+Command,Mute Input 10,WM40009*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input10.set
+Command,Mute Input 11,WM40010*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input11.set
+Command,Mute Input 12,WM40011*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.input12.set
+Command,Mute Telephone Rx,WM40012*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.telephoneRx.set
+Command,Pre-Mixer Mute Input 1,WM40100*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input1.set
+Command,Pre-Mixer Mute Input 2,WM40101*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input2.set
+Command,Pre-Mixer Mute Input 3,WM40102*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input3.set
+Command,Pre-Mixer Mute Input 4,WM40103*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input4.set
+Command,Pre-Mixer Mute Input 5,WM40104*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input5.set
+Command,Pre-Mixer Mute Input 6,WM40105*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input6.set
+Command,Pre-Mixer Mute Input 7,WM40106*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input7.set
+Command,Pre-Mixer Mute Input 8,WM40107*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input8.set
+Command,Pre-Mixer Mute Input 9,WM40108*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input9.set
+Command,Pre-Mixer Mute Input 10,WM40109*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input10.set
+Command,Pre-Mixer Mute Input 11,WM40110*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input11.set
+Command,Pre-Mixer Mute Input 12,WM40111*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.input12.set
+Command,Pre-Mixer Mute Telephone Rx,WM40112*#PAYLOAD#AU,n,FALSE,FALSE,example.preMixerMute.telephoneRx.set
+Command,Post Mixer Mute Output 1,WM60100*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input1.set
+Command,Post Mixer Mute Output 2,WM60101*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input2.set
+Command,Post Mixer Mute Output 3,WM60102*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input3.set
+Command,Post Mixer Mute Output 4,WM60103*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input4.set
+Command,Post Mixer Mute Output 5,WM60104*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input5.set
+Command,Post Mixer Mute Output 6,WM60105*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input6.set
+Command,Post Mixer Mute Output 7,WM60106*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input7.set
+Command,Post Mixer Mute Output 8/Telephone Tx,WM60107*#PAYLOAD#AU,n,FALSE,FALSE,example.postMixerMute.input8.set
+Command,Mute Output 1,WM60000*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output1.set
+Command,Mute Output 2,WM60001*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output2.set
+Command,Mute Output 3,WM60002*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output3.set
+Command,Mute Output 4,WM60003*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output4.set
+Command,Mute Output 5,WM60004*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output5.set
+Command,Mute Output 6,WM60005*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output6.set
+Command,Mute Output 7,WM60006*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output7.set
+Command,Mute Output 8,WM60007*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.output8.set
+Command,Mute Telephone Tx,WM60008*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.telephoneTx.set
+Command,Mute Virtual Return A,WM50000*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnA.set
+Command,Mute Virtual Return B,WM50001*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnB.set
+Command,Mute Virtual Return C,WM50002*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnC.set
+Command,Mute Virtual Return D,WM50003*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnD.set
+Command,Mute Virtual Return E,WM50004*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnE.set
+Command,Mute Virtual Return F,WM50005*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnF.set
+Command,Mute Virtual Return G,WM50006*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnG.set
+Command,Mute Virtual Return H,WM50007*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.virtualReturnH.set
+Command,Mute Exp In 1 To Output1,WM23600*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out1.set
+Command,Mute Exp In 1 To Output2,WM23601*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out2.set
+Command,Mute Exp In 1 To Output3,WM23602*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out3.set
+Command,Mute Exp In 1 To Output4,WM23603*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out4.set
+Command,Mute Exp In 1 To Output5,WM23604*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out5.set
+Command,Mute Exp In 1 To Output6,WM23605*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out6.set
+Command,Mute Exp In 1 To Output7,WM23606*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out7.set
+Command,Mute Exp In 1 To Output8,WM23607*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp1.out8.set
+Command,Mute Exp In 2 To Output1,WM23700*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out1.set
+Command,Mute Exp In 2 To Output2,WM23701*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out2.set
+Command,Mute Exp In 2 To Output3,WM23702*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out3.set
+Command,Mute Exp In 2 To Output4,WM23703*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out4.set
+Command,Mute Exp In 2 To Output5,WM23704*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out5.set
+Command,Mute Exp In 2 To Output6,WM23705*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out6.set
+Command,Mute Exp In 2 To Output7,WM23706*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out7.set
+Command,Mute Exp In 2 To Output8,WM23707*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp2.out8.set
+Command,Mute Exp In 3 To Output1,WM23800*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out1.set
+Command,Mute Exp In 3 To Output2,WM23801*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out2.set
+Command,Mute Exp In 3 To Output3,WM23802*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out3.set
+Command,Mute Exp In 3 To Output4,WM23803*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out4.set
+Command,Mute Exp In 3 To Output5,WM23804*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out5.set
+Command,Mute Exp In 3 To Output6,WM23805*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out6.set
+Command,Mute Exp In 3 To Output7,WM23806*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out7.set
+Command,Mute Exp In 3 To Output8,WM23807*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp3.out8.set
+Command,Mute Exp In 4 To Output1,WM23900*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out1.set
+Command,Mute Exp In 4 To Output2,WM23901*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out2.set
+Command,Mute Exp In 4 To Output3,WM23902*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out3.set
+Command,Mute Exp In 4 To Output4,WM23903*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out4.set
+Command,Mute Exp In 4 To Output5,WM23904*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out5.set
+Command,Mute Exp In 4 To Output6,WM23905*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out6.set
+Command,Mute Exp In 4 To Output7,WM23906*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out7.set
+Command,Mute Exp In 4 To Output8,WM23907*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp4.out8.set
+Command,Mute Exp In 5 To Output1,WM24000*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out1.set
+Command,Mute Exp In 5 To Output2,WM24001*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out2.set
+Command,Mute Exp In 5 To Output3,WM24002*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out3.set
+Command,Mute Exp In 5 To Output4,WM24003*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out4.set
+Command,Mute Exp In 5 To Output5,WM24004*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out5.set
+Command,Mute Exp In 5 To Output6,WM24005*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out6.set
+Command,Mute Exp In 5 To Output7,WM24006*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out7.set
+Command,Mute Exp In 5 To Output8,WM24007*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp5.out8.set
+Command,Mute Exp In 6 To Output1,WM24100*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out1.set
+Command,Mute Exp In 6 To Output2,WM24101*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out2.set
+Command,Mute Exp In 6 To Output3,WM24102*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out3.set
+Command,Mute Exp In 6 To Output4,WM24103*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out4.set
+Command,Mute Exp In 6 To Output5,WM24104*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out5.set
+Command,Mute Exp In 6 To Output6,WM24105*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out6.set
+Command,Mute Exp In 6 To Output7,WM24106*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out7.set
+Command,Mute Exp In 6 To Output8,WM24107*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp6.out8.set
+Command,Mute Exp In 7 To Output1,WM24200*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out1.set
+Command,Mute Exp In 7 To Output2,WM24201*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out2.set
+Command,Mute Exp In 7 To Output3,WM24202*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out3.set
+Command,Mute Exp In 7 To Output4,WM24203*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out4.set
+Command,Mute Exp In 7 To Output5,WM24204*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out5.set
+Command,Mute Exp In 7 To Output6,WM24205*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out6.set
+Command,Mute Exp In 7 To Output7,WM24206*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out7.set
+Command,Mute Exp In 7 To Output8,WM24207*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp7.out8.set
+Command,Mute Exp In 8 To Output1,WM24300*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out1.set
+Command,Mute Exp In 8 To Output2,WM24301*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out2.set
+Command,Mute Exp In 8 To Output3,WM24302*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out3.set
+Command,Mute Exp In 8 To Output4,WM24303*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out4.set
+Command,Mute Exp In 8 To Output5,WM24304*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out5.set
+Command,Mute Exp In 8 To Output6,WM24305*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out6.set
+Command,Mute Exp In 8 To Output7,WM24306*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out7.set
+Response,Mute Exp In 8 To Output8,WM24307*#PAYLOAD#AU,n,FALSE,FALSE,example.mute.exp8.out8.set
+Response,TCP Connected,connected,none,FALSE,FALSE,example.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,example.disconnected
+Response,Received,^(.+)$,n,FALSE,TRUE,example.response
+Response,Gain Input 1,^DsG40000\*(.+)$,n,FALSE,TRUE,example.gain.input1.status
+Response,Gain Input 2,^DsG40001\*(.+)$,n,FALSE,TRUE,example.gain.input2.status
+Response,Gain Input 3,^DsG40002\*(.+)$,n,FALSE,TRUE,example.gain.input3.status
+Response,Gain Input 4,^DsG40003\*(.+)$,n,FALSE,TRUE,example.gain.input4.status
+Response,Gain Input 5,^DsG40004\*(.+)$,n,FALSE,TRUE,example.gain.input5.status
+Response,Gain Input 6,^DsG40005\*(.+)$,n,FALSE,TRUE,example.gain.input6.status
+Response,Gain Input 7,^DsG40006\*(.+)$,n,FALSE,TRUE,example.gain.input7.status
+Response,Gain Input 8,^DsG40007\*(.+)$,n,FALSE,TRUE,example.gain.input8.status
+Response,Gain Input 9,^DsG40008\*(.+)$,n,FALSE,TRUE,example.gain.input9.status
+Response,Gain Input 10,^DsG40009\*(.+)$,n,FALSE,TRUE,example.gain.input10.status
+Response,Gain Input 11,^DsG40010\*(.+)$,n,FALSE,TRUE,example.gain.input11.status
+Response,Gain Input 12,^DsG40011\*(.+)$,n,FALSE,TRUE,example.gain.input12.status
+Response,Gain Telephone Rx,^DsG40012\*(.+)$,n,FALSE,TRUE,example.gain.telephoneRx.status
+Response,Pre-Mixer Gain Input 1,^DsG40100\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input1.status
+Response,Pre-Mixer Gain Input 2,^DsG40101\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input2.status
+Response,Pre-Mixer Gain Input 3,^DsG40102\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input3.status
+Response,Pre-Mixer Gain Input 4,^DsG40103\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input4.status
+Response,Pre-Mixer Gain Input 5,^DsG40104\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input5.status
+Response,Pre-Mixer Gain Input 6,^DsG40105\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input6.status
+Response,Pre-Mixer Gain Input 7,^DsG40106\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input7.status
+Response,Pre-Mixer Gain Input 8,^DsG40107\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input8.status
+Response,Pre-Mixer Gain Input 9,^DsG40108\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input9.status
+Response,Pre-Mixer Gain Input 10,^DsG40109\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input10.status
+Response,Pre-Mixer Gain Input 11,^DsG40110\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input11.status
+Response,Pre-Mixer Gain Input 12,^DsG40111\*(.+)$,n,FALSE,TRUE,example.preMixerGain.input12.status
+Response,Pre-Mixer Gain Telephone Rx,^DsG40112\*(.+)$,n,FALSE,TRUE,example.preMixerGain.telephoneRx.status
+Response,Post Mixer Trim Output 1,^DsG60100\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input1.status
+Response,Post Mixer Trim Output 2,^DsG60101\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input2.status
+Response,Post Mixer Trim Output 3,^DsG60102\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input3.status
+Response,Post Mixer Trim Output 4,^DsG60103\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input4.status
+Response,Post Mixer Trim Output 5,^DsG60104\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input5.status
+Response,Post Mixer Trim Output 6,^DsG60105\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input6.status
+Response,Post Mixer Trim Output 7,^DsG60106\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input7.status
+Response,Post Mixer Trim Output 8/Telephone Tx,^DsG60107\*(.+)$,n,FALSE,TRUE,example.postMixerTrim.input8.status
+Response,Gain Exp Input 1,^DsG50200\*(.+)$,n,FALSE,TRUE,example.gain.exp.input1.status
+Response,Gain Exp Input 2,^DsG50201\*(.+)$,n,FALSE,TRUE,example.gain.exp.input2.status
+Response,Gain Exp Input 3,^DsG50202\*(.+)$,n,FALSE,TRUE,example.gain.exp.input3.status
+Response,Gain Exp Input 4,^DsG50203\*(.+)$,n,FALSE,TRUE,example.gain.exp.input4.status
+Response,Gain Exp Input 5,^DsG50204\*(.+)$,n,FALSE,TRUE,example.gain.exp.input5.status
+Response,Gain Exp Input 6,^DsG50205\*(.+)$,n,FALSE,TRUE,example.gain.exp.input6.status
+Response,Gain Exp Input 7,^DsG50206\*(.+)$,n,FALSE,TRUE,example.gain.exp.input7.status
+Response,Gain Exp Input 8,^DsG50207\*(.+)$,n,FALSE,TRUE,example.gain.exp.input8.status
+Response,Volume Output 1,^DsG60000\*(.+)$,n,FALSE,TRUE,example.volume.output1.status
+Response,Volume Output 2,^DsG60001\*(.+)$,n,FALSE,TRUE,example.volume.output2.status
+Response,Volume Output 3,^DsG60002\*(.+)$,n,FALSE,TRUE,example.volume.output3.status
+Response,Volume Output 4,^DsG60003\*(.+)$,n,FALSE,TRUE,example.volume.output4.status
+Response,Volume Output 5,^DsG60004\*(.+)$,n,FALSE,TRUE,example.volume.output5.status
+Response,Volume Output 6,^DsG60005\*(.+)$,n,FALSE,TRUE,example.volume.output6.status
+Response,Volume Output 7,^DsG60006\*(.+)$,n,FALSE,TRUE,example.volume.output7.status
+Response,Volume Output 8,^DsG60007\*(.+)$,n,FALSE,TRUE,example.volume.output8.status
+Response,Volume Telephone Tx,^DsG60008\*(.+)$,n,FALSE,TRUE,example.volume.telephoneTx.status
+Response,Gain Virtual Return A,^DsG50000\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnA.status
+Response,Gain Virtual Return B,^DsG50001\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnB.status
+Response,Gain Virtual Return C,^DsG50002\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnC.status
+Response,Gain Virtual Return D,^DsG50003\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnD.status
+Response,Gain Virtual Return E,^DsG50004\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnE.status
+Response,Gain Virtual Return F,^DsG50005\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnF.status
+Response,Gain Virtual Return G,^DsG50006\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnG.status
+Response,Gain Virtual Return H,^DsG50007\*(.+)$,n,FALSE,TRUE,example.gain.virtualReturnH.status
+Response,Mute Input 1,^DsM40000\*(.+)$,n,FALSE,TRUE,example.mute.input1.status
+Response,Mute Input 2,^DsM40001\*(.+)$,n,FALSE,TRUE,example.mute.input2.status
+Response,Mute Input 3,^DsM40002\*(.+)$,n,FALSE,TRUE,example.mute.input3.status
+Response,Mute Input 4,^DsM40003\*(.+)$,n,FALSE,TRUE,example.mute.input4.status
+Response,Mute Input 5,^DsM40004\*(.+)$,n,FALSE,TRUE,example.mute.input5.status
+Response,Mute Input 6,^DsM40005\*(.+)$,n,FALSE,TRUE,example.mute.input6.status
+Response,Mute Input 7,^DsM40006\*(.+)$,n,FALSE,TRUE,example.mute.input7.status
+Response,Mute Input 8,^DsM40007\*(.+)$,n,FALSE,TRUE,example.mute.input8.status
+Response,Mute Input 9,^DsM40008\*(.+)$,n,FALSE,TRUE,example.mute.input9.status
+Response,Mute Input 10,^DsM40009\*(.+)$,n,FALSE,TRUE,example.mute.input10.status
+Response,Mute Input 11,^DsM40010\*(.+)$,n,FALSE,TRUE,example.mute.input11.status
+Response,Mute Input 12,^DsM40011\*(.+)$,n,FALSE,TRUE,example.mute.input12.status
+Response,Mute Telephone Rx,^DsM40012\*(.+)$,n,FALSE,TRUE,example.mute.telephoneRx.status
+Response,Pre-Mixer Mute Input 1,^DsM40100\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input1.status
+Response,Pre-Mixer Mute Input 2,^DsM40101\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input2.status
+Response,Pre-Mixer Mute Input 3,^DsM40102\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input3.status
+Response,Pre-Mixer Mute Input 4,^DsM40103\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input4.status
+Response,Pre-Mixer Mute Input 5,^DsM40104\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input5.status
+Response,Pre-Mixer Mute Input 6,^DsM40105\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input6.status
+Response,Pre-Mixer Mute Input 7,^DsM40106\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input7.status
+Response,Pre-Mixer Mute Input 8,^DsM40107\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input8.status
+Response,Pre-Mixer Mute Input 9,^DsM40108\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input9.status
+Response,Pre-Mixer Mute Input 10,^DsM40109\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input10.status
+Response,Pre-Mixer Mute Input 11,^DsM40110\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input11.status
+Response,Pre-Mixer Mute Input 12,^DsM40111\*(.+)$,n,FALSE,TRUE,example.preMixerMute.input12.status
+Response,Pre-Mixer Mute Telephone Rx,^DsM40112\*(.+)$,n,FALSE,TRUE,example.preMixerMute.telephoneRx.status
+Response,Post Mixer Mute Output 1,^DsM60100\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input1.status
+Response,Post Mixer Mute Output 2,^DsM60101\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input2.status
+Response,Post Mixer Mute Output 3,^DsM60102\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input3.status
+Response,Post Mixer Mute Output 4,^DsM60103\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input4.status
+Response,Post Mixer Mute Output 5,^DsM60104\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input5.status
+Response,Post Mixer Mute Output 6,^DsM60105\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input6.status
+Response,Post Mixer Mute Output 7,^DsM60106\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input7.status
+Response,Post Mixer Mute Output 8/Telephone Tx,^DsM60107\*(.+)$,n,FALSE,TRUE,example.postMixerMute.input8.status
+Response,Mute Output 1,^DsM60000\*(.+)$,n,FALSE,TRUE,example.mute.output1.status
+Response,Mute Output 2,^DsM60001\*(.+)$,n,FALSE,TRUE,example.mute.output2.status
+Response,Mute Output 3,^DsM60002\*(.+)$,n,FALSE,TRUE,example.mute.output3.status
+Response,Mute Output 4,^DsM60003\*(.+)$,n,FALSE,TRUE,example.mute.output4.status
+Response,Mute Output 5,^DsM60004\*(.+)$,n,FALSE,TRUE,example.mute.output5.status
+Response,Mute Output 6,^DsM60005\*(.+)$,n,FALSE,TRUE,example.mute.output6.status
+Response,Mute Output 7,^DsM60006\*(.+)$,n,FALSE,TRUE,example.mute.output7.status
+Response,Mute Output 8,^DsM60007\*(.+)$,n,FALSE,TRUE,example.mute.output8.status
+Response,Mute Telephone Tx,^DsM60008\*(.+)$,n,FALSE,TRUE,example.mute.telephoneTx.status
+Response,Mute Virtual Return A,^DsM50000\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnA.status
+Response,Mute Virtual Return B,^DsM50001\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnB.status
+Response,Mute Virtual Return C,^DsM50002\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnC.status
+Response,Mute Virtual Return D,^DsM50003\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnD.status
+Response,Mute Virtual Return E,^DsM50004\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnE.status
+Response,Mute Virtual Return F,^DsM50005\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnF.status
+Response,Mute Virtual Return G,^DsM50006\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnG.status
+Response,Mute Virtual Return H,^DsM50007\*(.+)$,n,FALSE,TRUE,example.mute.virtualReturnH.status
+Response,Mute Exp In 1 To Output1,^DsM23600\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out1.status
+Response,Mute Exp In 1 To Output2,^DsM23601\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out2.status
+Response,Mute Exp In 1 To Output3,^DsM23602\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out3.status
+Response,Mute Exp In 1 To Output4,^DsM23603\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out4.status
+Response,Mute Exp In 1 To Output5,^DsM23604\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out5.status
+Response,Mute Exp In 1 To Output6,^DsM23605\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out6.status
+Response,Mute Exp In 1 To Output7,^DsM23606\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out7.status
+Response,Mute Exp In 1 To Output8,^DsM23607\*(.+)$,n,FALSE,TRUE,example.mute.exp1.out8.status
+Response,Mute Exp In 2 To Output1,^DsM23700\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out1.status
+Response,Mute Exp In 2 To Output2,^DsM23701\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out2.status
+Response,Mute Exp In 2 To Output3,^DsM23702\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out3.status
+Response,Mute Exp In 2 To Output4,^DsM23703\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out4.status
+Response,Mute Exp In 2 To Output5,^DsM23704\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out5.status
+Response,Mute Exp In 2 To Output6,^DsM23705\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out6.status
+Response,Mute Exp In 2 To Output7,^DsM23706\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out7.status
+Response,Mute Exp In 2 To Output8,^DsM23707\*(.+)$,n,FALSE,TRUE,example.mute.exp2.out8.status
+Response,Mute Exp In 3 To Output1,^DsM23800\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out1.status
+Response,Mute Exp In 3 To Output2,^DsM23801\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out2.status
+Response,Mute Exp In 3 To Output3,^DsM23802\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out3.status
+Response,Mute Exp In 3 To Output4,^DsM23803\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out4.status
+Response,Mute Exp In 3 To Output5,^DsM23804\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out5.status
+Response,Mute Exp In 3 To Output6,^DsM23805\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out6.status
+Response,Mute Exp In 3 To Output7,^DsM23806\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out7.status
+Response,Mute Exp In 3 To Output8,^DsM23807\*(.+)$,n,FALSE,TRUE,example.mute.exp3.out8.status
+Response,Mute Exp In 4 To Output1,^DsM23900\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out1.status
+Response,Mute Exp In 4 To Output2,^DsM23901\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out2.status
+Response,Mute Exp In 4 To Output3,^DsM23902\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out3.status
+Response,Mute Exp In 4 To Output4,^DsM23903\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out4.status
+Response,Mute Exp In 4 To Output5,^DsM23904\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out5.status
+Response,Mute Exp In 4 To Output6,^DsM23905\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out6.status
+Response,Mute Exp In 4 To Output7,^DsM23906\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out7.status
+Response,Mute Exp In 4 To Output8,^DsM23907\*(.+)$,n,FALSE,TRUE,example.mute.exp4.out8.status
+Response,Mute Exp In 5 To Output1,^DsM24000\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out1.status
+Response,Mute Exp In 5 To Output2,^DsM24001\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out2.status
+Response,Mute Exp In 5 To Output3,^DsM24002\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out3.status
+Response,Mute Exp In 5 To Output4,^DsM24003\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out4.status
+Response,Mute Exp In 5 To Output5,^DsM24004\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out5.status
+Response,Mute Exp In 5 To Output6,^DsM24005\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out6.status
+Response,Mute Exp In 5 To Output7,^DsM24006\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out7.status
+Response,Mute Exp In 5 To Output8,^DsM24007\*(.+)$,n,FALSE,TRUE,example.mute.exp5.out8.status
+Response,Mute Exp In 6 To Output1,^DsM24100\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out1.status
+Response,Mute Exp In 6 To Output2,^DsM24101\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out2.status
+Response,Mute Exp In 6 To Output3,^DsM24102\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out3.status
+Response,Mute Exp In 6 To Output4,^DsM24103\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out4.status
+Response,Mute Exp In 6 To Output5,^DsM24104\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out5.status
+Response,Mute Exp In 6 To Output6,^DsM24105\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out6.status
+Response,Mute Exp In 6 To Output7,^DsM24106\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out7.status
+Response,Mute Exp In 6 To Output8,^DsM24107\*(.+)$,n,FALSE,TRUE,example.mute.exp6.out8.status
+Response,Mute Exp In 7 To Output1,^DsM24200\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out1.status
+Response,Mute Exp In 7 To Output2,^DsM24201\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out2.status
+Response,Mute Exp In 7 To Output3,^DsM24202\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out3.status
+Response,Mute Exp In 7 To Output4,^DsM24203\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out4.status
+Response,Mute Exp In 7 To Output5,^DsM24204\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out5.status
+Response,Mute Exp In 7 To Output6,^DsM24205\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out6.status
+Response,Mute Exp In 7 To Output7,^DsM24206\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out7.status
+Response,Mute Exp In 7 To Output8,^DsM24207\*(.+)$,n,FALSE,TRUE,example.mute.exp7.out8.status
+Response,Mute Exp In 8 To Output1,^DsM24300\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out1.status
+Response,Mute Exp In 8 To Output2,^DsM24301\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out2.status
+Response,Mute Exp In 8 To Output3,^DsM24302\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out3.status
+Response,Mute Exp In 8 To Output4,^DsM24303\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out4.status
+Response,Mute Exp In 8 To Output5,^DsM24304\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out5.status
+Response,Mute Exp In 8 To Output6,^DsM24305\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out6.status
+Response,Mute Exp In 8 To Output7,^DsM24306\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out7.status
+,Mute Exp In 8 To Output8,^DsM24307\*(.+)$,n,FALSE,TRUE,example.mute.exp8.out8.status
