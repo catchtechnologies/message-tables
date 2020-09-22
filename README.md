@@ -2,6 +2,6 @@
 
 This repository contains message tables that translate control protocols from different manufacturers to catch-messaging.
 
-Service Node management gateways uses catch-messaging to publish messages and subscribe to message channels for communication between services.
+Service Node management gateways use catch-messaging to publish messages and subscribe to message channels for communication between services.
 
-(Click here)[./Service Node Communication Flow.pdf] to view the communication flow diagram.
+[Click here ](https://github.com/catchtechnologies/message-tables/blob/master/Service%20Node%20Communication%20Flow.pdf) to view the communication flow diagram.

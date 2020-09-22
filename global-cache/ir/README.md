@@ -7,4 +7,4 @@
 
 These message tables are set up for module 1 and port 1 for Global Cache Ethernet to IR converters.
 
-See (Global Cache Unified TCP API)[https://www.globalcache.com/files/docs/API-GC-UnifiedTCPv1.1.pdf] for details.
+See [Global Cache Unified TCP API](https://www.globalcache.com/files/docs/API-GC-UnifiedTCPv1.1.pdf) for details.
