@@ -1,0 +1,67 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,Set Power Status,*SCPOWR000000000000000#PAYLAOD#,none,FALSE,FALSE,example.powerStatus.set
+Command,Get Power Status,*SEPOWR################,none,FALSE,FALSE,example.powerStatus.get
+Command,Set Audio Volume,*SCVOLU00000000000000#PAYLOAD#,none,FALSE,FALSE,example.Volume.set
+Command,Get Audio Volume,*SEVOLU################,none,FALSE,FALSE,example.Volume.get
+Command,Set Input HDMI,*SCINPT000000010000#PAYLOAD#,none,FALSE,FALSE,example.InputHDMI.set
+Command,Get Input HDMI,*SEINPT################,none,FALSE,FALSE,example.InputHDMI.get
+Command,Send IR Code Display,*CIRCC0000000000000005,none,FALSE,FALSE,example.IRCode.Display
+Command,Send IR Code Home,*CIRCC0000000000000006,none,FALSE,FALSE,example.IRCode.Home
+Command,Send IR Code Options,*CIRCC0000000000000007,none,FALSE,FALSE,example.IRCode.Options
+Command,Send IR Code Return,*CIRCC0000000000000008,none,FALSE,FALSE,example.IRCode.Return
+Command,Send IR Code Up,*CIRCC0000000000000009,none,FALSE,FALSE,example.IRCode.Up
+Command,Send IR Code Down,*CIRCC0000000000000010,none,FALSE,FALSE,example.IRCode.Down
+Command,Send IR Code Right,*CIRCC0000000000000011,none,FALSE,FALSE,example.IRCode.Right
+Command,Send IR Code Left,*CIRCC0000000000000012,none,FALSE,FALSE,example.IRCode.Left
+Command,Send IR Code Confirm,*CIRCC0000000000000013,none,FALSE,FALSE,example.IRCode.Confirm
+Command,Send IR Code Red,*CIRCC0000000000000014,none,FALSE,FALSE,example.IRCode.Red
+Command,Send IR Code Green,*CIRCC0000000000000015,none,FALSE,FALSE,example.IRCode.Green
+Command,Send IR Code Yellow,*CIRCC0000000000000016,none,FALSE,FALSE,example.IRCode.Yellow
+Command,Send IR Code Blue,*CIRCC0000000000000017,none,FALSE,FALSE,example.IRCode.Blue
+Command,Send IR Code Num1,*CIRCC0000000000000018,none,FALSE,FALSE,example.IRCode.Num1
+Command,Send IR Code Num2,*CIRCC0000000000000019,none,FALSE,FALSE,example.IRCode.Num2
+Command,Send IR Code Num3,*CIRCC0000000000000020,none,FALSE,FALSE,example.IRCode.Num3
+Command,Send IR Code Num4,*CIRCC0000000000000021,none,FALSE,FALSE,example.IRCode.Num4
+Command,Send IR Code Num5,*CIRCC0000000000000022,none,FALSE,FALSE,example.IRCode.Num5
+Command,Send IR Code Num6,*CIRCC0000000000000023,none,FALSE,FALSE,example.IRCode.Num6
+Command,Send IR Code Num7,*CIRCC0000000000000024,none,FALSE,FALSE,example.IRCode.Num7
+Command,Send IR Code Num8,*CIRCC0000000000000025,none,FALSE,FALSE,example.IRCode.Num8
+Command,Send IR Code Num9,*CIRCC0000000000000026,none,FALSE,FALSE,example.IRCode.Num9
+Command,Send IR Code Num0,*CIRCC0000000000000027,none,FALSE,FALSE,example.IRCode.Num0
+Command,Send IR Code Volume Up,*CIRCC0000000000000030,none,FALSE,FALSE,example.IRCode.VolumeUp
+Command,Send IR Code Volume Down,*CIRCC0000000000000031,none,FALSE,FALSE,example.IRCode.VolumeDown
+Command,Send IR Code Mute,*CIRCC0000000000000032,none,FALSE,FALSE,example.IRCode.Mute
+Command,Send IR Code Channel Up,*CIRCC0000000000000033,none,FALSE,FALSE,example.IRCode.ChannelUp
+Command,Send IR Code Channel Down,*CIRCC0000000000000034,none,FALSE,FALSE,example.IRCode.ChannelDown
+Command,Send IR Code Subtitle,*CIRCC0000000000000035,none,FALSE,FALSE,example.IRCode.Subtitle
+Command,Send IR Code DOT,*CIRCC0000000000000038,none,FALSE,FALSE,example.IRCode.DOT
+Command,Send IR Code Picture Off,*CIRCC0000000000000050,none,FALSE,FALSE,example.IRCode.PictureOff
+Command,Send IR Code Wide,*CIRCC0000000000000061,none,FALSE,FALSE,example.IRCode.Wide
+Command,Send IR Code Jump,*CIRCC0000000000000062,none,FALSE,FALSE,example.IRCode.Jump
+Command,Send IR Code Sync Menu,*CIRCC0000000000000076,none,FALSE,FALSE,example.IRCode.SyncMenu
+Command,Send IR Code Forward,*CIRCC0000000000000077,none,FALSE,FALSE,example.IRCode.Forward
+Command,Send IR Code Play,*CIRCC0000000000000078,none,FALSE,FALSE,example.IRCode.Play
+Command,Send IR Code Rewind,*CIRCC0000000000000079,none,FALSE,FALSE,example.IRCode.Rewind
+Command,Send IR Code Prev,*CIRCC0000000000000080,none,FALSE,FALSE,example.IRCode.Prev
+Command,Send IR Code Stop,*CIRCC0000000000000081,none,FALSE,FALSE,example.IRCode.Stop
+Command,Send IR Code Next,*CIRCC0000000000000082,none,FALSE,FALSE,example.IRCode.Next
+Command,Send IR Code Pause,*CIRCC0000000000000084,none,FALSE,FALSE,example.IRCode.Pause
+Command,Send IR Code Flash Plus,*CIRCC0000000000000086,none,FALSE,FALSE,example.IRCode.FlashPlus
+Command,Send IR Code Flash Minus,*CIRCC0000000000000087,none,FALSE,FALSE,example.IRCode.FlashMinus
+Command,Send IR Code TV Power,*CIRCC0000000000000098,none,FALSE,FALSE,example.IRCode.TVPower
+Command,Send IR Code Audio,*CIRCC0000000000000099,none,FALSE,FALSE,example.IRCode.Audio
+Command,Send IR Code Input,*CIRCC0000000000000101,none,FALSE,FALSE,example.IRCode.Input
+Command,Send IR Code Sleep,*CIRCC0000000000000104,none,FALSE,FALSE,example.IRCode.Sleep
+Command,Send IR Code Sleep Timer,*CIRCC0000000000000105,none,FALSE,FALSE,example.IRCode.Sleep Timer
+Command,Send IR Code Video 2,*CIRCC0000000000000108,none,FALSE,FALSE,example.IRCode.Video2
+Command,Send IR Code Picture Mode,*CIRCC0000000000000110,none,FALSE,FALSE,example.IRCode.Picture Mode
+Command,Send IR Code Demo Surround,*CIRCC0000000000000121,none,FALSE,FALSE,example.IRCode.DemoSurround
+Command,Send IR Code HDMI 1,*CIRCC0000000000000124,none,FALSE,FALSE,example.IRCode.HDMI1
+Command,Send IR Code HDMI 2,*CIRCC0000000000000125,none,FALSE,FALSE,example.IRCode.HDMI2
+Command,Send IR Code HDMI 3,*CIRCC0000000000000126,none,FALSE,FALSE,example.IRCode.HDMI3
+Command,Send IR Code HDMI 4,*CIRCC0000000000000127,none,FALSE,FALSE,example.IRCode.HDMI4
+Command,Send IR Code Action Menu,*CIRCC0000000000000129,none,FALSE,FALSE,example.IRCode.Action Menu
+Command,Send IR Code Help,*CIRCC0000000000000130,none,FALSE,FALSE,example.IRCode.Help
+Response,Power Status FB,^*SAPOWR000000000000000(.+)$,none,FALSE,TRUE,example.powerStatus.fb
+Response,Volume FB,^*SAVOLU000000000000000(.+)$,none,FALSE,TRUE,example.Volume.fb
+Response,Input HDMI FB,^*SAINPT000000010000(.+)$,none,FALSE,TRUE,example.InputHDMI.fb

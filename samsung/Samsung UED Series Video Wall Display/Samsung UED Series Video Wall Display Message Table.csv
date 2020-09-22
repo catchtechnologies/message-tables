@@ -1,0 +1,12 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,example.tcp.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,example.tcp.disconnect
+Command,Send Hex Command,#PAYLOAD#,none,TRUE,FALSE,example.send.hex
+Command,Power On,0xAA 0x11 0x01 0x01 0x01 0x14 0x0A 0x0D,none,TRUE,FALSE,example.powerOn
+Command,Power Off,0xAA 0x11 0x01 0x01 0x00 0x13 0x0A 0x0D,none,TRUE,FALSE,example.powerOff
+Command,Poll Power,0xAA 0x11 0x01 0x00 0x12 0x0A 0x0D,none,TRUE,FALSE,example.poll.power
+Response,TCP Connected,connected,none,FALSE,FALSE,example.tcp.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,example.tcp.disconnected
+Response,Power Status On,0xefbfbd 0xefbfbd 0x01 0x03 0x41 0x11 0x01 0x56,none,TRUE,FALSE,example.power.status.on
+Response,Power Status Off,0xefbfbd 0xefbfbd 0x01 0x03 0x41 0x11 0x00 0x55,none,TRUE,FALSE,example.power.status.off
+Response,Received Hex Command,^(.+)$,rn,TRUE,TRUE,example.receivedHex

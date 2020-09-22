@@ -1,0 +1,12 @@
+﻿Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,dsp.tcp.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,dsp.tcp.disconnect
+Command,Send Command,#PAYLOAD#,r,FALSE,FALSE,dsp.tcp.send
+Command,Load Preset,LP #PAYLOAD#,r,FALSE,FALSE,dsp.preset.set
+Command,Audio Routing Preset,LP #PAYLOAD#,r,FALSE,FALSE,routing.audio
+Command,Output Volume,CS 2 #PAYLOAD#,r,FALSE,FALSE,volume
+Command,Output Mute,CS 1 #PAYLOAD#,r,FALSE,FALSE,mute
+Command,Output Mute Poll,GS 1,r,FALSE,FALSE,mute.poll
+Response,TCP Connected,connected,none,FALSE,FALSE,dsp.tcp.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,dsp.tcp.disconnected
+Response,Received,^(.+)$,r,FALSE,TRUE,dsp.received

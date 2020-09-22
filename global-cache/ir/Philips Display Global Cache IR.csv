@@ -1,0 +1,9 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,display11.tcp.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,display11.tcp.disconnect
+Command,Send Command,#PAYLOAD#,r,FALSE,FALSE,display11.send
+Command,POWER OFF,"sendir,1:1,1,36000,1,1,32,32,64,32,32,32,32,32,32,32,32,32,32,64,32,32,32,32,32,32,64,64,32,2487",r,FALSE,FALSE,display11.powerOff
+Command,POWER ON,"sendir,1:1,1,36000,1,1,32,32,64,32,32,32,32,32,32,32,32,32,32,64,32,32,32,32,32,32,32,32,32,32,32,2487",r,FALSE,FALSE,display11.powerOn
+Response,TCP Connected,connected,none,FALSE,FALSE,display11.tcp.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,display11.tcp.disconnected
+Response,Received,^(.+)$,rn,FALSE,TRUE,display11.received

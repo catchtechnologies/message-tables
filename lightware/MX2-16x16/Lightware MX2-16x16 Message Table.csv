@@ -1,0 +1,23 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,example.tcp.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,example.tcp.disconnect
+Command,Send Command,#PAYLOAD#,rn,FALSE,FALSE,example.send
+Command,Route Output 1,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O1),rn,FALSE,FALSE,example.route.output1
+Command,Route Output 2,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O2),rn,FALSE,FALSE,example.route.output2
+Command,Route Output 3,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O3),rn,FALSE,FALSE,example.route.output3
+Command,Route Output 4,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O4),rn,FALSE,FALSE,example.route.output4
+Command,Route Output 5,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O5),rn,FALSE,FALSE,example.route.output5
+Command,Route Output 6,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O6),rn,FALSE,FALSE,example.route.output6
+Command,Route Output 7,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O7),rn,FALSE,FALSE,example.route.output7
+Command,Route Output 8,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O8),rn,FALSE,FALSE,example.route.output8
+Command,Route Output 9,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O9),rn,FALSE,FALSE,example.route.output9
+Command,Route Output 10,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O10),rn,FALSE,FALSE,example.route.output10
+Command,Route Output 11,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O11),rn,FALSE,FALSE,example.route.output11
+Command,Route Output 12,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O12),rn,FALSE,FALSE,example.route.output12
+Command,Route Output 13,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O13),rn,FALSE,FALSE,example.route.output13
+Command,Route Output 14,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O14),rn,FALSE,FALSE,example.route.output14
+Command,Route Output 15,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O15),rn,FALSE,FALSE,example.route.output15
+Command,Route Output 16,CALL /MEDIA/XP/VIDEO:switch(I#PAYLOAD#:O16),rn,FALSE,FALSE,example.route.output16
+Response,TCP Connected,connected,none,FALSE,FALSE,example.tcp.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,example.tcp.disconnected
+Response,Received,^(.+)$,rn,FALSE,TRUE,example.received

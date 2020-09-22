@@ -1,0 +1,57 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,example.tcp.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,example.tcp.disconnect
+Command,Send Command,#PAYLOAD#,none,FALSE,FALSE,example.send
+Command,Switch to Channel ID,SET /SYS/MB/PHY.VideoChannelId=#PAYLOAD#,rn,FALSE,FALSE,example.channelSwitch.set
+Command,Get Product Name,GET /.ProductName,rn,FALSE,FALSE,example.productname.get
+Command,Set Device Label,SET /SYS/MB.DeviceLabel=#PAYLOAD#,rn,FALSE,FALSE,example.devicelabel.set
+Command,Get Serial Number,GET /.SerialNumber,rn,FALSE,FALSE,example.serialnumber.get
+Command,Get Package Version,GET /SYS/MB.PackageVersion,rn,FALSE,FALSE,example.packageVersion.get
+Command,Reset the Device,CALL /SYS:reset(),rn,FALSE,FALSE,example.reset.device
+Command,Restore Factory Settings,CALL /SYS:factoryDefaults(),rn,FALSE,FALSE,example.restore.factorySettings
+Command,Get Input Video Signal Presence,GET /MEDIA/VIDEO/I1.SignalPresent,rn,FALSE,FALSE,example.inputVideoSignalPresence.get
+Command,Get Resolution of the Input Video Signal,GET /MEDIA/VIDEO/I1.Resolution,rn,FALSE,FALSE,example.inputVideoResolution.get
+Command,Get Video Quality Mode,GET /MEDIA/VIDEO/QUALITY.QualityMode,rn,FALSE,FALSE,example.videoQualityMode.get
+Command,Set Video Quality Mode,SET /MEDIA/VIDEO/QUALITY.QualityMode=#PAYLOAD#,rn,FALSE,FALSE,example.videoQualityMode.set
+Command,Get HDCP State,GET /MEDIA/VIDEO/I1.HdcpState,rn,FALSE,FALSE,example.hdcpState.get
+Command,Get Output Resolution,GET /MEDIA/VIDEO/O1.Resolution,rn,FALSE,FALSE,example.outputResolution.get
+Command,Get Scaling Mode of Video Output,GET /MEDIA/VIDEO/O1/SCALER.ScalingMode,rn,FALSE,FALSE,example.scalingModeOutput.get
+Command,Set Scaling Mode of Video Output,SET /MEDIA/VIDEO/O1/SCALER.ScalingMode=#PAYLOAD#,rn,FALSE,FALSE,example.scalingModeOutput.set
+Command,Set Scaling Output Resolution,SET /MEDIA/VIDEO/O1/SCALER.OutputResolution=#PAYLOAD#,rn,FALSE,FALSE,example.scalingResolutionOutput.set
+Command,Get Scaling Signal Type,GET /MEDIA/VIDEO/O1/SCALER.SignalType,rn,FALSE,FALSE,example.scalingSignalScalingType.get
+Command,Set Scaling Signal Type,SET /MEDIA/VIDEO/O1/SCALER.SignalType=#PAYLOAD#,rn,FALSE,FALSE,example.scalingSignalScalingType.set
+Command,Get Audio Input Selection Mode,GET /MEDIA/AUDIO.ioSelect,rn,FALSE,FALSE,example.audioInputSelection.get
+Command,Set Audio Input Selection Mode,SET /MEDIA/AUDIO.ioSelect=#PAYLOAD#,rn,FALSE,FALSE,example.audioInputSelection.set
+Command,Get Audio Input Presence,GET /MEDIA/AUDIO/I1.SignalPresent,rn,FALSE,FALSE,example.audioInputPresence.get
+Command,Get Audio Analog Volume dB,GET /MEDIA/AUDIO/I1.AnalogVolumedB,rn,FALSE,FALSE,example.audioInputVolumedB.get
+Command,Set Audio Analog Volume dB,SET /MEDIA/AUDIO/I1.AnalogVolumedB=#PAYLOAD#,rn,FALSE,FALSE,example.audioInputVolumedB.set
+Command,Get Audio Analog Volume Mute,GET /MEDIA/AUDIO/I1.AnalogMute,rn,FALSE,FALSE,example.audioInputVolumeMute.get
+Command,Set Audio Analog Volume Mute,SET /MEDIA/AUDIO/I1.AnalogMute=#PAYLOAD#,rn,FALSE,FALSE,example.audioInputVolumeMute.set
+Command,Set Video Wall Name,SET /MEDIA/VIDEO/O1/VIDEOWALL.Name=#PAYLOAD#,rn,FALSE,FALSE,example.videoWallName.set
+Command,Set Video Wall Layout,SET /MEDIA/VIDEO/O1/VIDEOWALL.Layout=#PAYLOAD#,rn,FALSE,FALSE,example.videoWallLayout.set
+Command,Set Multicast Mode,SET /MANAGEMENT/MULTICAST.MulticastMode=#PAYLOAD#,rn,FALSE,FALSE,example.multicastMode.set
+Response,TCP Connected,connected,none,FALSE,FALSE,example.tcp.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,example.tcp.disconnected
+Response,Received Command,^(.+)$,none,FALSE,TRUE,example.received
+Response,Switch to Channel ID FB,^pw /SYS/MB/PHY.VideoChannelId=(.+)$,rn,FALSE,TRUE,example.channelSwitch.fb
+Response,Product Name FB,^pr /.ProductName=(.+)$,rn,FALSE,TRUE,example.productname.fb
+Response,Device Label FB,^pw /SYS/MB.DeviceLabel=(.+)$,rn,FALSE,TRUE,example.devicelabel.fb
+Response,Serial Number FB,^pr /.SerialNumber=(.+)$,rn,FALSE,TRUE,example.serialnumber.fb
+Response,Package Verison FB,^pr  /SYS/MB.PackageVersion=(.+)$,rn,FALSE,TRUE,example.packageVersion.fb
+Response,Reset the Device FB,^mO /SYS:reset,rn,FALSE,TRUE,example.reset.device.fb
+Response,Restore Factory Settings FB,^mO /SYS:factoryDefaults=,rn,FALSE,TRUE,example.restore.factorySettings.fb
+Response,Input Video Signal Presence FB,^pr /MEDIA/VIDEO/I1.SignalPresent=(.+)$,rn,FALSE,TRUE,example.inputVideoSignalPresence.fb
+Response,Resolution of the Input Video Signal FB,^pr /MEDIA/VIDEO/I1.Resolution=(.+)$,rn,FALSE,TRUE,example.inputVideoResolution.fb
+Response,Video Quality Mode FB,^pw /MEDIA/VIDEO/QUALITY.QualityMode=(.+)$,rn,FALSE,TRUE,example.videoQualityMode.fb
+Response,HDCP State FB,^pr /MEDIA/VIDEO/I1.HdcpState=(.+)$,rn,FALSE,TRUE,example.hdcpState.fb
+Response,Output Resolution FB,^pr /MEDIA/VIDEO/O1.Resolution=(.+)$,rn,FALSE,TRUE,example.outputResolution.fb
+Response,Scaling Mode of Video Output FB,^pw /MEDIA/VIDEO/O1/SCALER.ScalingMode=(.+)$,rn,FALSE,TRUE,example.scalingModeOutput.fb
+Response,Scaling Output Resolution FB,^pw /MEDIA/VIDEO/O1/SCALER.OutputResolution=(.+)$,rn,FALSE,TRUE,example.scalingResolutionOutput.fb
+Response,Scaling Signal Type FB,^pw /MEDIA/VIDEO/O1/SCALER.SignalType=(.+)$,rn,FALSE,TRUE,example.scalingSignalScalingType.fb
+Response,Audio Input Selection Mode FB,^pw /MEDIA/AUDIO.ioSelect=(.+)$,rn,FALSE,TRUE,example.audioInputSelection.fb
+Response,Audio Input Presence FB,^pr /MEDIA/AUDIO/I1.SignalPresent=(.+)$,rn,FALSE,TRUE,example.audioInputPresence.fb
+Response,Audio Analog Volume dB FB,^pw /MEDIA/AUDIO/I2.AnalogVolumedB=(.+)$,rn,FALSE,TRUE,example.audioInputVolumedB.fb
+Response,Audio Analog Volume Mute FB,^pw /MEDIA/AUDIO/I2.AnalogMute=(.+)$,rn,FALSE,TRUE,example.audioInputVolumeMute.fb
+Response,Video Wall Name FB,^pw /MEDIA/VIDEO/O1/VIDEOWALL.Name=(.+)$,rn,FALSE,TRUE,example.videoWallName.fb
+Response,Video Wall Layout FB,^pw /MEDIA/VIDEO/O1/VIDEOWALL.Layout=(.+)$,rn,FALSE,TRUE,example.videoWallLayout.fb
+Response,Multicast Mode FB,^pw /MANAGEMENT/MULTICAST.MulticastMode=(.+)$,rn,FALSE,TRUE,example.multicastMode.fb
