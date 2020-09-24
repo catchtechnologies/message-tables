@@ -1,0 +1,27 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,Send Command,#PAYLOAD#,r,FALSE,FALSE,example.sendCommand
+Command,Get Route Status,Status,r,FALSE,FALSE,example.route.status
+Command,Route Output 1,x#PAYLOAD#AVx1,r,FALSE,FALSE,example.route.output1
+Command,Route Output 2,x#PAYLOAD#AVx2,r,FALSE,FALSE,example.route.output2
+Command,Route Output 3,x#PAYLOAD#AVx3,r,FALSE,FALSE,example.route.output3
+Command,Route Output 4,x#PAYLOAD#AVx4,r,FALSE,FALSE,example.route.output4
+Command,Route Output 5,x#PAYLOAD#AVx5,r,FALSE,FALSE,example.route.output5
+Command,Route Output 6,x#PAYLOAD#AVx6,r,FALSE,FALSE,example.route.output6
+Command,Route Output 7,x#PAYLOAD#AVx7,r,FALSE,FALSE,example.route.output7
+Command,Route Output 8,x#PAYLOAD#AVx8,r,FALSE,FALSE,example.route.output8
+Command,Mute On,VOUTMute1 on,r,FALSE,FALSE,example.mute.on
+Command,Mute Off,VOUTMute1 off,r,FALSE,FALSE,example.mute.off
+Command,Input Status,InputStatus#PAYLOAD#,r,FALSE,FALSE,example.input.status
+Response,Received Command,^(.+)$,none,FALSE,TRUE,example.receivedCommand
+Response,Routed Output 1,x#PAYLOAD#AVx1,n,FALSE,FALSE,example.routed.output1
+Response,Routed Output 2,x#PAYLOAD#AVx2,n,FALSE,FALSE,example.routed.output2
+Response,Routed Output 3,x#PAYLOAD#AVx3,n,FALSE,FALSE,example.routed.output3
+Response,Routed Output 4,x#PAYLOAD#AVx4,n,FALSE,FALSE,example.routed.output4
+Response,Routed Output 5,x#PAYLOAD#AVx5,n,FALSE,FALSE,example.routed.output5
+Response,Routed Output 6,x#PAYLOAD#AVx6,n,FALSE,FALSE,example.routed.output6
+Response,Routed Output 7,x#PAYLOAD#AVx7,n,FALSE,FALSE,example.routed.output7
+Response,Routed Output 8,x#PAYLOAD#AVx8,n,FALSE,FALSE,example.routed.output8
+Response,Mute On,VOUTMute1 on,n,FALSE,FALSE,example.mute.is.on
+Response,Mute Off,VOUTMute1 off,n,FALSE,FALSE,example.mute.is.off
+Response,Input Detected,InputStatus#PAYLOAD# 1,n,FALSE,FALSE,example.input.is.detected
+Response,Input Not Detected,InputStatus#PAYLOAD# 0,n,FALSE,FALSE,example.input.is.not.detected
