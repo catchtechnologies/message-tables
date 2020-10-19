@@ -1,0 +1,75 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,Set Red On Channel 1,{=11001},none,FALSE,FALSE,example.set.red.on.channel1
+Command,Set Red On Channel 2,{=21001},none,FALSE,FALSE,example.set.red.on.channel2
+Command,Set Red On Channel 3,{=31001},none,FALSE,FALSE,example.set.red.on.channel3
+Command,Set Red On Channel 4,{=41001},none,FALSE,FALSE,example.set.red.on.channel4
+Command,Set Red On Channel 5,{=51001},none,FALSE,FALSE,example.set.red.on.channel5
+Command,Set Red On Channel 6,{=61001},none,FALSE,FALSE,example.set.red.on.channel6
+Command,Set Red On Channel 7,{=71001},none,FALSE,FALSE,example.set.red.on.channel7
+Command,Set Red On Channel 8,{=81001},none,FALSE,FALSE,example.set.red.on.channel8
+Command,Set Red On Channel All,{=aff0000ff},none,FALSE,FALSE,example.set.red.on.channel.all
+Command,Set Green On Channel 1,{=10111},none,FALSE,FALSE,example.set.green.on.channel1
+Command,Set Green On Channel 2,{=20111},none,FALSE,FALSE,example.set.green.on.channel2
+Command,Set Green On Channel 3,{=30111},none,FALSE,FALSE,example.set.green.on.channel3
+Command,Set Green On Channel 4,{=40111},none,FALSE,FALSE,example.set.green.on.channel4
+Command,Set Green On Channel 5,{=50111},none,FALSE,FALSE,example.set.green.on.channel5
+Command,Set Green On Channel 6,{=60111},none,FALSE,FALSE,example.set.green.on.channel6
+Command,Set Green On Channel 7,{=70111},none,FALSE,FALSE,example.set.green.on.channel7
+Command,Set Green On Channel 8,{=80111},none,FALSE,FALSE,example.set.green.on.channel8
+Command,Set Green On Channel All,{=a00ffffff},none,FALSE,FALSE,example.set.green.on.channel.all
+Command,Set LED Off Channel 1,{=10001},none,FALSE,FALSE,example.set.led.off.channel1
+Command,Set LED Off Channel 2,{=20001},none,FALSE,FALSE,example.set.led.off.channel2
+Command,Set LED Off Channel 3,{=30001},none,FALSE,FALSE,example.set.led.off.channel3
+Command,Set LED Off Channel 4,{=40001},none,FALSE,FALSE,example.set.led.off.channel4
+Command,Set LED Off Channel 5,{=50001},none,FALSE,FALSE,example.set.led.off.channel5
+Command,Set LED Off Channel 6,{=60001},none,FALSE,FALSE,example.set.led.off.channel6
+Command,Set LED Off Channel 7,{=70001},none,FALSE,FALSE,example.set.led.off.channel7
+Command,Set LED Off Channel 8,{=80001},none,FALSE,FALSE,example.set.led.off.channel8
+Command,Set LED Off Channel All,{=a000000ff},none,FALSE,FALSE,example.set.led.off.channel.all
+Command,Poll Channel 1,{?1},none,FALSE,FALSE,example.poll.channel1
+Command,Poll Channel 2,{?2},none,FALSE,FALSE,example.poll.channel2
+Command,Poll Channel 3,{?3},none,FALSE,FALSE,example.poll.channel3
+Command,Poll Channel 4,{?4},none,FALSE,FALSE,example.poll.channel4
+Command,Poll Channel 5,{?5},none,FALSE,FALSE,example.poll.channel5
+Command,Poll Channel 6,{?6},none,FALSE,FALSE,example.poll.channel6
+Command,Poll Channel 7,{?7},none,FALSE,FALSE,example.poll.channel7
+Command,Poll Channel 8,{?8},none,FALSE,FALSE,example.poll.channel8
+Command,Poll All Channels,{?a},none,FALSE,FALSE,example.poll.channel.all
+Command,Set Dimming On,{=d1},none,FALSE,FALSE,example.set.dimming.on
+Command,Set Dimming Off,{=d0},none,FALSE,FALSE,example.set.dimming.off
+Command,Poll Dimming State,{?d},none,FALSE,FALSE,example.poll.dimming
+Response,Status Red On Channel 1,{=11001},none,FALSE,FALSE,example.status.red.on.channel1
+Response,Status Red On Channel 2,{=21001},none,FALSE,FALSE,example.status.red.on.channel2
+Response,Status Red On Channel 3,{=31001},none,FALSE,FALSE,example.status.red.on.channel3
+Response,Status Red On Channel 4,{=41001},none,FALSE,FALSE,example.status.red.on.channel4
+Response,Status Red On Channel 5,{=51001},none,FALSE,FALSE,example.status.red.on.channel5
+Response,Status Red On Channel 6,{=61001},none,FALSE,FALSE,example.status.red.on.channel6
+Response,Status Red On Channel 7,{=71001},none,FALSE,FALSE,example.status.red.on.channel7
+Response,Status Red On Channel 8,{=81001},none,FALSE,FALSE,example.status.red.on.channel8
+Response,Status Green On Channel 1,{=10111},none,FALSE,FALSE,example.status.green.on.channel1
+Response,Status Green On Channel 2,{=20111},none,FALSE,FALSE,example.status.green.on.channel2
+Response,Status Green On Channel 3,{=30111},none,FALSE,FALSE,example.status.green.on.channel3
+Response,Status Green On Channel 4,{=40111},none,FALSE,FALSE,example.status.green.on.channel4
+Response,Status Green On Channel 5,{=50111},none,FALSE,FALSE,example.status.green.on.channel5
+Response,Status Green On Channel 6,{=60111},none,FALSE,FALSE,example.status.green.on.channel6
+Response,Status Green On Channel 7,{=70111},none,FALSE,FALSE,example.status.green.on.channel7
+Response,Status Green On Channel 8,{=80111},none,FALSE,FALSE,example.status.green.on.channel8
+Response,Status LED Off Channel 1,{=10001},none,FALSE,FALSE,example.status.led.off.channel1
+Response,Status LED Off Channel 2,{=20001},none,FALSE,FALSE,example.status.led.off.channel2
+Response,Status LED Off Channel 3,{=30001},none,FALSE,FALSE,example.status.led.off.channel3
+Response,Status LED Off Channel 4,{=40001},none,FALSE,FALSE,example.status.led.off.channel4
+Response,Status LED Off Channel 5,{=50001},none,FALSE,FALSE,example.status.led.off.channel5
+Response,Status LED Off Channel 6,{=60001},none,FALSE,FALSE,example.status.led.off.channel6
+Response,Status LED Off Channel 7,{=70001},none,FALSE,FALSE,example.status.led.off.channel7
+Response,Status LED Off Channel 8,{=80001},none,FALSE,FALSE,example.status.led.off.channel8
+Response,Button Is Pressed Channel 1,{=sfe},none,FALSE,FALSE,example.button.pressed.channel1
+Response,Button Is Pressed Channel 2,{=sfd},none,FALSE,FALSE,example.button.pressed.channel2
+Response,Button Is Pressed Channel 3,{=sfb},none,FALSE,FALSE,example.button.pressed.channel3
+Response,Button Is Pressed Channel 4,{=sf7},none,FALSE,FALSE,example.button.pressed.channel4
+Response,Button Is Pressed Channel 5,{=sef},none,FALSE,FALSE,example.button.pressed.channel5
+Response,Button Is Pressed Channel 6,{=sdf},none,FALSE,FALSE,example.button.pressed.channel6
+Response,Button Is Pressed Channel 7,{=sbf},none,FALSE,FALSE,example.button.pressed.channel7
+Response,Button Is Pressed Channel 8,{=s7f},none,FALSE,FALSE,example.button.pressed.channel8
+Response,Button Is Released Channel All,{=sff},none,FALSE,FALSE,example.button.released.channel.all
+Response,Status Dimming On,{=d1},none,FALSE,FALSE,example.status.dimming.on
+Response,Status Dimming Off,{=d0},none,FALSE,FALSE,example.status.dimming.off
