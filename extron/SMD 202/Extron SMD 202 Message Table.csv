@@ -1,0 +1,33 @@
+Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
+Command,TCP Connect,connect,none,FALSE,FALSE,example.connect
+Command,TCP Disconnect,disconnect,none,FALSE,FALSE,example.disconnect
+Command,Send Command,#PAYLOAD#,r,FALSE,FALSE,example.send
+Command,Get Firmware Version,#PAYLOAD#,r,FALSE,FALSE,example.send
+Command,Start Playback,WS1*1PLYR,r,FALSE,FALSE,example.playback.start
+Command,Pause Playback,WE1PLYR,r,FALSE,FALSE,example.playback.pause
+Command,Stop Playback,WO1PLYR,r,FALSE,FALSE,example.playback.stop
+Command,Get Playback State,WY1PLYR,r,FALSE,FALSE,example.playback.get.state
+Command,Next Track,WN1PLYR,r,FALSE,FALSE,example.track.next
+Command,Previous Track,WP1PLYR,r,FALSE,FALSE,example.track.previous
+Command,Set Loop On,WR1*1PLYR,r,FALSE,FALSE,example.playback.loop.set.on
+Command,Set Loop Off,WR1*0PLYR,r,FALSE,FALSE,example.playback.loop.set.off
+Command,Get Loop State,WR1PLYR,r,FALSE,FALSE,example.playback.loop.get.state
+Command,Load Playlist,WL1*#PAYLOAD#PLYR,r,FALSE,FALSE,example.playlist.load
+Command,Get Current Playlist,WL1PLYR,r,FALSE,FALSE,example.playlist.get
+Command,Get Playlist File,WG#PAYLOAD#PLST,r,FALSE,FALSE,example.playlist.files.get
+Command,Clear Playlist,WX01PLYR,r,FALSE,FALSE,example.playlist.clear
+Command,Get Current Media Path,WU1PLYR,r,FALSE,FALSE,example.media.get.path
+Response,TCP Connected,connected,none,FALSE,FALSE,example.connected
+Response,TCP Disconnected,disconnected,none,FALSE,FALSE,example.disconnected
+Response,Received,^(.+)$,n,FALSE,TRUE,example.response
+Response,Playing,PlyrS1*^(.+)$,n,FALSE,TRUE,example.playback.state.playing
+Response,Paused,PlyrE1*^(.+)$,n,FALSE,TRUE,example.playback.state.paused
+Response,Stopped,PlyrO1,n,FALSE,FALSE,example.playback.state.stopped
+Response,Playback State,PlyrY1*^(.+)$,n,FALSE,TRUE,example.playback.state
+Response,Current Track,PlyrT1*^(.+)$,n,FALSE,TRUE,example.track.current
+Response,Loop Is On,PlyrR1*1,n,FALSE,FALSE,example.playback.loop.state.on
+Response,Loop Is Off,PlyrR1*0,n,FALSE,FALSE,example.playback.loop.state.off
+Response,Loop State,PlyrR1*^(.+)$,n,FALSE,TRUE,example.playback.loop.state
+Response,Playlist Loaded,PlyrL1*^(.+)$,n,FALSE,TRUE,example.playlist.loaded
+Response,Playlist Cleared,PlyrX^(.+)$,n,FALSE,TRUE,example.playlist.cleared
+Response,Current Media Path,PlyrU1*^(.+)$,n,FALSE,TRUE,example.media.path
