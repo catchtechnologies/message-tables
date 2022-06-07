@@ -1,5 +1,5 @@
 Message Type,Name,Message,Append Special Character,Is Hexadecimal,Is Regular Expression,Channel
-Command,Set Power Status,*SCPOWR000000000000000#PAYLAOD#,none,FALSE,FALSE,example.powerStatus.set
+Command,Set Power Status,*SCPOWR000000000000000#PAYLOAD#,none,FALSE,FALSE,example.powerStatus.set
 Command,Get Power Status,*SEPOWR################,none,FALSE,FALSE,example.powerStatus.get
 Command,Set Audio Volume,*SCVOLU00000000000000#PAYLOAD#,none,FALSE,FALSE,example.Volume.set
 Command,Get Audio Volume,*SEVOLU################,none,FALSE,FALSE,example.Volume.get
